@@ -1,4 +1,4 @@
- 
+
 body{
     font-family: 'Kavoon', cursive;
     background-image: url("../images/jewelBK.jpg");
@@ -8,7 +8,16 @@ body{
     align-items: center;
     margin:0;
 }
-.jewel{
+#logo{
+    text-shadow: 4px 4px #202020;
+    color: #ffffff;
+    line-height: 30px;
+    opacity: 1;
+    margin:10px;
+    border: 0;
+    padding: 0;
+}
+#redJewel, #greenJewel, #purpleJewel, #blueJewel{
     
     border: 1px solid black;
     height: 120px;
@@ -20,27 +29,27 @@ body{
 }
 .heading, .gameheading {
     color: #ffffff;
-    line-height: 30px;
+    line-height: 40px;
     opacity: 1;
     margin:10px;
-    border: 0;
-    padding: 0;
-  
+    border: 4px;
+    padding: 4px;
+    text-shadow: 4px 4px #202020;
 }
 #wins, #losses{
     border: 1px solid #ffffff;
     color: #ffffff;
-    line-height: 30px;
+    line-height: 40px;
     opacity: 1;
-    margin:2px;
-    border: 0;
-    padding: 0;
+    margin:0px 0px 6px 0px;
+    border: 4px;
+    padding: 4px;
     height: 30px; 
     width: 220px;
- 
+    text-shadow: 4px 4px #202020;
 }
 .jumbotron{
-    background-image: url("../images/diagmonds.png");
+    background-image: url("assets/images/diagmonds.png"); 
     width: auto;
     height: 700px;
     margin: 40px;
@@ -51,8 +60,9 @@ body{
     box-shadow: 5px 2px 2px 2px #202020;
     
 }
-.container-fluid{
+.container{
     width: auto;
+    height: 800px;
 }
     
 .description{
@@ -61,10 +71,12 @@ body{
  color: black;
  opacity: 1;
  margin: 5px;
- border: 0;
- padding: 0;
+ border: 5px;
+ padding: 5px;
  float: left;
- height: 500px;
+ height: 270px;
+ width: 75%;
+ text-align: justify;
  box-shadow: 5px 2px 2px 2px #202020;
 }
 #random-number, #totalScore{
@@ -72,14 +84,22 @@ body{
  color: black;
   font-size: 50px;
 height: 80px;
-opacity: 1;
-margin:2px;
-width: 150px;
+opacity: 0.5;
+margin: 0px 4px 0px 30px;
+width: 120px;
 box-shadow: 5px 2px 2px 2px #202020;
+float: right;
+text-align: center;
+align-content: center;
       }
  
 .spacer{
     
         height: 50px;
       }
+img{
+    background-size: cover;
+    float: left;
+}
+
  
