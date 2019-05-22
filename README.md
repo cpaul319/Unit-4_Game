@@ -1,4 +1,4 @@
-###Crystals Collector
+# Crystals Collector
 
 ## Simple One page Game
 
@@ -24,7 +24,7 @@
 *The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
 
- ##Overview
+ ## Overview
 
 In this assignment, I created a fun and interactive game for web browsers. This time, the app dynamically updates the users HTML pages with the jQuery library.
 
