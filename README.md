@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+#Crystals Collector#
 
-You can use the [editor on GitHub](https://github.com/cpaul319/Unit-4_Game/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Simple One page Game
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*There will be four crystals displayed as buttons on the page.
+*The player will be shown a random number at the start of the game.
 
-### Markdown
+*When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+*Your game will hide this amount until the player clicks a crystal.
+*When they do click one, update the player's score counter.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+   *The player wins if their total score matches the random number from the beginning of the game.
+   *The player loses if their score goes above the random number.
 
-1. Numbered
-2. List
+*The game restarts whenever the player wins or loses.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+*When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+*The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cpaul319/Unit-4_Game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+ ##Overview##
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+In this assignment, I created a fun and interactive game for web browsers. This time, the app dynamically updates the users HTML pages with the jQuery library.
+
+
+  ![screenshot data with input](crystalscollector.png)
+
+ [Link to application](https://cpaul319.github.io/Unit-4_Game/)
+
+
